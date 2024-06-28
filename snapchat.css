@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+align-items: center;
+font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.one{
+    width:50%;
+    margin-bottom: 0%;
+}
+.imag{
+    width: 200%;
+    /* margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 2%; */
+}
+/* .imageries{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 2%;
+
+}
+.image{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 20%;
+} */
+.two{
+    width: 50%;
+    color:black;
+    
+}
+.formy{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: black;
+    text-decoration: underline 5px rebeccapurple;
+}
+.label{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    color: rgb(70, 40, 154);
+}
+input[type="text"],[type="email"],[type="password"]{
+    padding: 1.5%;
+    width: 90%;
+    border: 0.5px solid gold;
+    box-shadow: 1px 1px 1px beige;
+    border-radius: 30px;
+}
+.arrange{
+    padding-top:3% ;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4%;
+}
+.arrange h6{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 4%;
+}
+.arrange input[type="checkbox"]{
+    accent-color:gold;
+    margin-left:2%;
+}
+.btn{
+    background-color:coral;
+    border: none;
+    border-radius: 10px;
+    color: rgb(27, 172, 164);
+    font-size:20px;
+    font-weight: bold;
+    padding:1%;
+    width:90%
+}
+.btn:hover{
+    transform: scale(1.1);
+    border: 1px solid #9c1d1d;
+    background-color: rgb(209, 8, 88);
+    color:gold;
+}
+.last{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+.last a{
+    text-decoration: none;
+    color:rgb(46, 12, 216);
+    text-decoration: underline 2px blue;
+} 
